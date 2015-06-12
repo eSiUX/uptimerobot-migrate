@@ -186,7 +186,7 @@ if __name__ == '__main__':
         log.mask( 'ALL' )
         log.stderr( 1 )
 
-        ur = UptimeRobot('m776565908-683db37dfdc98e379322d808')
+        ur = UptimeRobot('API_KEY')
 
         #pprint.pprint( ur.request('/getAccountDetails') )
         #pprint.pprint( ur.request('/getMonitors', paramList={'logs': 1, 'responseTimes': 1, 'alertContacts': 1, 'monitors': 776565908, 'responseTimesStartDate': '2015-05-31', 'responseTimesEndDate': '2015-06-01', 'showMonitorAlertContacts': 1} ) )
